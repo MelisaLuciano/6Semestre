@@ -1,0 +1,22 @@
+Planteamiento del Problema
+
+Disenar un programa que funcione igual que una Agenda, la cual debe poder guardar contactos
+y grupos ya sea predefinidos o definidospor el usuario
+
+Solucion del Problema
+
+Por medio del uso de 3 clases que utilizan los atributos y metodos necesarios para la utilizacion de
+la Agenda, mas el uso de una clase Principal que incluyen todos los procesos visuales.
+
+El proceso de abstraccion fue disenar 3 objetos:
+	1.Objecto Persona:
+		Objeto que representa una sola Persona, con Nombre y ID
+	
+	2. Objeto GrupoPersonas
+		Objeto que contiene todos los metodos y atributos para crear y mantener un conjunto de 
+		Personas. Contiene los atributos: Nombre y ID para identificar los diferentes grupos
+
+	3.Objeto Agenda
+		Objeto que contiene los metodos y atributos para mantener el conjunto el contactos tipo
+		Persona y el conjunto de Grupos tipo GrupoPersonas. Ademas, tiene todos los metodos para
+		accesar a los contactos individuales.

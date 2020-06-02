@@ -1,0 +1,17 @@
+**********************************Planteamiento del problema******************************
+Crear una aplicacion que sea como una aplicacion de tienda virtual con funciones principales de un carrito
+*************************************Solución del problema*********************************
+Por medio del uso de clases primero:
+
+1.- Crear un objeto de tipo carritocompra
+2.-Hacer un arreglo de diez objetos de tipo producto, va a tener diez espacios vacios, crear uno por uno y asignarlos a esos espacios del arreglo, en la posicion cero crear un objeto de tipo producto. 
+avanzar así hasta el nueve
+Almacen al arreglo de productos
+3.- En el objeto de carritocompra, dentro del constructor crear un arraylist, esta vacia y tiene que ser del tipo de la clase item. Añadir "add" enviar el id del producto y la cantidad. item se añade a la lista del carrito 
+4.- Checar la cantidad de los productos que tengo en almacen antes de hacer las operaciones, hacer la operacion dentro del métododo modificar compra .
+------------------------------------------------Nuevo----------------------------------------
+1.- Recorrer la lista uno por uno y comparar el id del item que ingrese con el id del item con el que estoy posicionado en la lista. si son iguales preguntar la cantidad (Showinput...) mandar a llamar al set, enviar la cantidad ingresada, 
+
+2.- Para el ticket se debe recorrer la lista del carrito y al mismo tiempo y por cada elemento dl carrito se debe comparar su id con el id de toda la lista de los productos, crear una variable la cual vaya sumando usando getcantidad y getprecio
+
+3.-REcorrer lalista de los datos formato para: nombre del producto y cantidad guardarlos en una variable, string con todos los datos concatenados
