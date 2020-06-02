@@ -1,0 +1,28 @@
+***Fraccion:***
+Variables:
+-private int numerador
+-private int denominador
+-int u
+-int v
+-int r
+-int dividir
+
+Constructor:
+-Fraccion
+
+Métodos: 
+-getNumerador
+-getDenominador
+-sumar
+-restar
+-multiplicar
+-dividir
+-mcd
+-Simplificar
+
+***CalculadoraFracciones***
+
+-Fraccion f1
+-Fraccion f2;
+
+
