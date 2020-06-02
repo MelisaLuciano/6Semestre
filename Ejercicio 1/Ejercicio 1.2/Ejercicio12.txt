@@ -1,0 +1,12 @@
+Planteamiento del problema:
+Diseñar un programa donde el usuario ingrese una cadena y esta puede ser cifrada y decifrada.
+
+Abstraccion
+¿Que ? 
+Crear clases las cuales descifren y cifren una cadena que ingresa el usuario y que esta sea guardada en un atributo el atributo "dato" de la clase cadena
+¿Cómo? Usando get y set para poder accesar al dato privado y poder utilizarlo en las clases de cifrado y descifrado ...en todas las clases
+Utilizando el algortimo cifrado-Cesar el cual es un algoritmo de cifrado, creado hace mucho tiempo, el primer cifrado el cual era muy aplicado en mensajes, toma una letra del string y le suma la llave que se le haya ingresado pero la llave no es util en los valores del multiplo de 26 ya que daria la vuelta. En este caso se definio en el programa, es decir que el usuario no puede ingresar la llave de corrimiento
+
+Diseño de la app
+
+Implementacion
